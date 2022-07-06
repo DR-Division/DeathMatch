@@ -1,6 +1,0 @@
-main: org.light.source.DeathMatch
-name: DeathMatch
-version: 1.0
-commands:
-  데스매치:
-    description: Related with DeathMatch

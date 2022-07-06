@@ -1,0 +1,47 @@
+main: org.light.source.DeathMatch
+name: DeathMatch
+version: ${project.version}
+authors: [ DR_Division ]
+depend: [ CrackShot, Vault, ProtocolLib ]
+api-version: 1.16
+
+commands:
+  deathmatch:
+    aliases: [ 데스매치, dm ]
+    description: Related with DeathMatch
+  join:
+    aliases: [ 참여 ]
+    description: Join Command
+  leave:
+    aliases: [ 나가기 ]
+    description: Leave Command
+  rank:
+    aliases: [ 랭크 ]
+    description: Rank
+  kd:
+    aliases: [ 킬뎃 ]
+    description: K/D
+  hd:
+    description: hologram
+  dayz:
+    aliases: [ 데이즈 ]
+    description: about dayz
+  chest:
+    aliases: [ 창고 ]
+    description: dayz chest
+  trash:
+    aliases: [ 쓰레기통 ]
+    description: trash
+  trade:
+    aliases: [ 거래 ]
+    description: trade item
+  shop:
+    aliases: [ 상점 ]
+    description: sell zombie
+  bugremover:
+    aliases: [ 버그제거 ]
+    description: pumpkin bug
+  emergency:
+    aliases: [ 비상탈출 ]
+    description: emergency food
+
